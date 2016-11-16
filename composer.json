@@ -1,0 +1,20 @@
+{
+    "name": "demmonico/yii2-migration",
+    "type": "yii2-extension",
+    "description": "Yii2 Migration class",
+    "keywords": ["yii", "yii2", "migration", "extension", "component"],
+    "homepage": "https://github.com/demmonico/yii2-migration",
+    "license": "MIT",
+    "authors": [
+        {"name": "Dmitry demmonico", "email": "demmonico@gmail.com"}
+    ],
+    "require": {
+        "php": ">5.5.0",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "demmonico\\helpers\\": "src"
+        }
+    }
+}
